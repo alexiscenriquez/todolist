@@ -44,7 +44,7 @@ button{
  background-color: #A7AED9;
  padding:5px;
  width:200px;
- margin-bottom:20px;
+
  border-radius: 10px;
  font-family: 'Architects Daughter', cursive;
  font-weight: bold;
@@ -55,6 +55,13 @@ button{
     border:inset 2pt#262118;
     overflow: scroll;
     border-radius: 10px;
+}
+#error{
+    margin-top:0;
+color:rgb(126, 54, 54);
+    text-align:center;
+    visibility: hidden;
+    
 }
 input[type="checkbox"]{
 float: right;
