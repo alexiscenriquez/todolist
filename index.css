@@ -30,6 +30,7 @@ margin: auto;
 display: block;
 background-color:#A7AED9;
 border-color:#ACACAC;
+margin-bottom: 30px;
 }
 input[type="text"]:focus{
 outline: none;
@@ -53,6 +54,7 @@ button{
     background-color: rgba(245, 245, 245, 0.315);
     border:inset 2pt#262118;
     overflow: scroll;
+    border-radius: 10px;
 }
 @media(max-width:500px){
     body{
@@ -74,12 +76,33 @@ button{
         width: 70%;
         margin: 30px auto;
         height: 250px;
-        border-radius: 5px;
+       
         padding:10px;
     }
 
     input[type="text"]{
         width: 200px;
-        margin-bottom: 30px;
+        
     }
 }
+
+@media(min-width:501px){
+h1{
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+    #list{
+        width:45%;
+        max-width: 400px;
+        margin:auto;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+
+    input[type="text"]{
+        width:40%;
+        max-width:350px;
+        
+    }
+}
+
