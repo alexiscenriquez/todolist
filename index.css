@@ -1,0 +1,85 @@
+body{
+    background: url("undraw_Complete_task_re_44tb.svg");
+    background-size: 50% cover;
+    background-repeat: no-repeat;
+    background-position: top 20px right 0;
+    background-color:#8896BF;
+    font-family: 'Architects Daughter', cursive;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    margin:auto;
+    text-align: center;
+}
+
+li{
+   
+    margin-bottom:25px;
+   border-bottom: solid 1px black;
+   
+}
+
+input[type="checkbox"]{
+    display: inline;
+    margin-left: 15px;
+}
+input[type="text"]{
+border-radius: 10px;
+margin: auto;
+display: block;
+background-color:#A7AED9;
+border-color:#ACACAC;
+}
+input[type="text"]:focus{
+outline: none;
+border-color: #A7AED9;
+background-color: rgb(218, 213, 213);
+transition: background-color 0.1s ease-in;
+}
+button{
+ margin: auto;
+ display: block;
+ background-color: #A7AED9;
+ padding:5px;
+ width:200px;
+ margin-bottom:20px;
+ border-radius: 10px;
+ font-family: 'Architects Daughter', cursive;
+ font-weight: bold;
+ border-color: #A7AED9;
+}
+#list{
+    background-color: rgba(245, 245, 245, 0.315);
+    border:inset 2pt#262118;
+    overflow: scroll;
+}
+@media(max-width:500px){
+    body{
+        background-size: 70%;
+        background-position: right 0px bottom 20px;
+        
+        margin:auto;
+        width: 100%;
+    
+    }
+   
+    .wrapper{
+       margin-top:30px;
+     
+    }
+
+    #list{
+       
+        width: 70%;
+        margin: 30px auto;
+        height: 250px;
+        border-radius: 5px;
+        padding:10px;
+    }
+
+    input[type="text"]{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+}
