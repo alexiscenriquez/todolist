@@ -53,7 +53,7 @@ button{
 #list{
     background-color: rgba(245, 245, 245, 0.315);
     border:inset 2pt#262118;
-    overflow: scroll;
+ overflow-y: auto;
     border-radius: 10px;
 }
 #error{
