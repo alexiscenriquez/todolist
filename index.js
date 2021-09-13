@@ -15,8 +15,6 @@ add.addEventListener("click", () => {
         input.value = "";
     }
 });
-
-
 del.addEventListener("click", () => {
     for (let i = checkbox.length-1; i >=0; i--) {
       if (checkbox[i].checked) {
