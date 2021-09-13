@@ -56,6 +56,10 @@ button{
     overflow: scroll;
     border-radius: 10px;
 }
+input[type="checkbox"]{
+float: right;
+margin-right:30px;
+    }
 @media(max-width:500px){
     body{
         background-size: 70%;
@@ -76,10 +80,11 @@ button{
         width: 70%;
         margin: 30px auto;
         height: 250px;
-       
+      
         padding:10px;
     }
 
+   
     input[type="text"]{
         width: 200px;
         
