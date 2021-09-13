@@ -6,15 +6,21 @@ let checkbox = document.forms[0];
 let err = document.querySelector("#error");
 let items = [];
 let newItems = [];
+add.addEventListener("keyup",function(event){
+    if(event.keyCode===13){
+console.log("yeah")    }
+    })
 add.addEventListener("click", () => {
     if (input.value.length == 0) {
         err.style.visibility = "visible";
     } else {
+        err.style.visibility = "hidden";
         list.innerHTML += `<li> <label for="check">${input.value}</label> <input type="checkbox" class="check" name="check" value=${input.value}></li>`;
         items.push(input.value);
         input.value = "";
     }
 });
+
 
 
 del.addEventListener("click", () => {
