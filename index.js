@@ -22,8 +22,9 @@ del.addEventListener("click",()=>{
            items.splice(i,1)
           
         }
-        if(checkbox.length==1&&checkbox.checked){
-            items.shift
+        if(checkbox.length===1&&checkbox[i].checked){
+            items=[]
+            list.innerHTML=""
         }
     }
 
@@ -31,6 +32,8 @@ del.addEventListener("click",()=>{
        
         list.innerHTML=""
         list.innerHTML+=`<li> <label for="check">${items[i]}</label> <input type="checkbox" class="check" name="check"></li>`
-        
+        if(items.length<=1 &&checkbox[i].checked){
+            list.innerHTML=""
+        }
     }
 })
